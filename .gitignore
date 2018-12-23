@@ -1,0 +1,40 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+pom.xml.releaseBackup
+release.properties
+gitflow/
+
+### Eclipse IDEA ###
+.metadata
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/.idea/
+/MobileNOC.iml
+/parent.iml
+/azure.prop
+
+### uploadedFile ###
+/uploads/carrier/attachments
