@@ -27,6 +27,7 @@ public abstract class TaskDefinitionCommon {
 
     @Override
     public boolean equals(Object obj) {
+        
         if (obj instanceof TaskDefinition) {
             TaskDefinition other = (TaskDefinition) obj;
             return this.equals(other.getId(), other.getName(), other.getDescription());
